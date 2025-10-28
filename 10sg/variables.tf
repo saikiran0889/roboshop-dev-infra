@@ -11,7 +11,11 @@ variable "sg_name" {
     default = [
         "catalogue", "mongodb", "cart", "user", "mysql", 
         "shipping", "payment", "rabbitmq", "frontend",
-        "bastion"]
+        "bastion",
+        "forntend_alb",
+        "backend_alb",
+        
+        ]
 
 }
 
