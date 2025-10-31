@@ -5,4 +5,4 @@ ansible-pull -u https://github.com/saikiran0889/ansible-robodhop-roles-installpa
 
 git clone ansible-playbook
 cd ansible-playbook
-ansible-playbook -i inventory mongodb.yaml
+ansible-playbook -i inventory main.yaml
