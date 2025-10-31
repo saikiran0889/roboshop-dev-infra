@@ -28,10 +28,11 @@ provisioner "file" {
   destination = "/tmp/bootstrap.sh"
 }
 
-  provisioner "remote-exec" {
+ provisioner "remote-exec" {
     inline = [
-      "chmod +x /tmp/bootstrap.sh",
-      "sudo sh /tmp/bootstrap.sh"
+        "chmod +x /tmp/bootstrap.sh",
+        # "sudo sh /tmp/bootstrap.sh"
+        "sudo sh /tmp/bootstrap.sh mongodb"
     ]
   }
 }
