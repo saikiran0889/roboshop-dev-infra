@@ -82,7 +82,7 @@ provisioner "file" {
 
 
 
-resource "aws_instance" "rrabbitmqedis" {
+resource "aws_instance" "rabbitmq" {
   ami           = local.ami_id
   instance_type = "t3.micro"
   vpc_security_group_ids = [local.rabbitmq_sg_id]
