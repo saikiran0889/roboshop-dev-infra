@@ -14,7 +14,7 @@ variable "sg_name" {
         "bastion",
         "forntend_alb",
         "backend_alb",
-        
+        "redis"
         ]
 
 }
