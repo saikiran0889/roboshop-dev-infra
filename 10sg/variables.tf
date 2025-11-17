@@ -12,9 +12,10 @@ variable "sg_name" {
         "catalogue", "mongodb", "cart", "user", "mysql", 
         "shipping", "payment", "rabbitmq", "frontend",
         "bastion",
-        "forntend_alb",
+        "frontend_alb",
         "backend_alb",
-        "redis"
+        "redis",
+        "openvpn"
         ]
 
 }
